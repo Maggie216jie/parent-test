@@ -24,7 +24,7 @@ class Child extends Component {
 
     getList=(value)=>{
 
-        let allterms = JSON.parse(JSON.stringify(this.props.data.items))
+        let allterms = JSON.parse(JSON.stringify(this.props.data.state.items))
         let filterterms = allterms.filter(item=>{
             if(item.indexOf(value)>-1&&value){
                 return item
