@@ -28,7 +28,7 @@ export class Parent extends Component {
      
         return (
             <div>
-                <div>User Name is:{this.props.data.userName}</div>
+                <div>User Name is:{this.props.data.state.userName}</div>
             
             Color is:
             {this.state.text}
