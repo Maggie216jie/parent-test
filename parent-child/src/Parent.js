@@ -13,7 +13,8 @@ export class Parent extends Component {
         }
 
     }
-
+    
+    //主要想测试这个
     changeText = (text)=>{
 
         this.setState({
